@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*MENU*/
+
+.navbar-brand {
+	padding: 10px 30px;
+	height: auto;
+}
+
+.logo-menu {
+	width: 60px;
+}
+
+.navbar-default {
+	border-top: 8px #086343 solid;
+	margin-bottom: 0px;
+}
+
+.navbar-right {
+	padding-top: 10px;
+	margin-right: 50px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.navbar-toggle {
+	margin-top: 20px;
+}
+
+
+/*CONTENT*/
+
+.section-1 {
+	background-image: url(../assets/images/banner1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.section-2 {
+	background-image: url(../assets/images/stars2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.section-3 {
+	background-image: url(../assets/images/beans.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.jumbotron {
+	margin-bottom: 10px;
+}
+
+.content-info {
+	text-align: center;
+	background-color: #000;
+	padding: 30px 10px;
+	border-radius: 40px;
+	filter: opacity(70%);
+}
+
+.content-info h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.7em;
+	line-height: 1.3em;
+}
+
+.content-info i {
+	color: #fff;
+	font-size: 30px;
+}
+
+.content-info p {
+	font-size: 1.2em;
+	color: #fff;
+	margin: 10px 0 25px 0;
+}
+
+.content-info a {
+	color: #fff; 
+	font-size: 1.1em;
+	border: 1px white solid;
+	padding: 10px 20px;
+	border-radius: 50px;
+	margin-top: 30px;
+}
+
+.footer {
+	text-align: center;
+	padding: 25px;
+	border-bottom: 8px #382f2e solid;
+}
+
+.rss-icon {
+	width: 25px;
+}
+
+.footer-icon {
+	width: 30px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+
+@media (min-width: 768px) {
+
+.content-info {
+	width: 60vw;
+	margin:0 auto;
+}
+
+}
+
+@media (min-width: 992px) {
+
+.content-info {
+	width: 40vw;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.jumbotron  {
+	padding: 70px;
+}
+
+.content-info {
+	width: 40vw;
+	display: inline-block;
+	padding: 30px 40px 40px 40px;
+}
+
+.section-1 {
+	text-align: center;
+}
+
+.section-2, .section-3 {
+	text-align: right;
+}
+
+}
+
+@media (min-width: 1440px) {
+
+.content-info {
+	width: 450px;
+	display: inline-block;
+	padding: 30px 40px 50px 40px;
+}
+
+}
